@@ -13,6 +13,7 @@
         <module>shop-common</module>
         <module>shop-order</module>
         <module>shop-order-service</module>
+        <module>shop-goods-service</module>
     </modules>
     <packaging>pom</packaging>
 
