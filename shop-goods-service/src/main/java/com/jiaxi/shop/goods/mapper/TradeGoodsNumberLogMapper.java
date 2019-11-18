@@ -4,8 +4,10 @@ import com.jiaxi.shop.pojo.TradeGoodsNumberLog;
 import com.jiaxi.shop.pojo.TradeGoodsNumberLogExample;
 import com.jiaxi.shop.pojo.TradeGoodsNumberLogKey;
 import java.util.List;
-import org.apache.ibatis.annotations.Param;
 
+import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
+@Mapper
 public interface TradeGoodsNumberLogMapper {
     int countByExample(TradeGoodsNumberLogExample example);
 

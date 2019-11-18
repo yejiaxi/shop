@@ -12,9 +12,7 @@
     <groupId>com.jiaxi.shop.order</groupId>
     <artifactId>shop-order-service</artifactId>
     <packaging>pom</packaging>
-    <modules>
-        <module>shop-coupon-service</module>
-    </modules>
+
 
     <dependencies>
         <!--mybatis-springboot-->

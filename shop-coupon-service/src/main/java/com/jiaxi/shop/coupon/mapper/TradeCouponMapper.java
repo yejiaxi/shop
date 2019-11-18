@@ -3,8 +3,10 @@ package com.jiaxi.shop.coupon.mapper;
 import com.jiaxi.shop.pojo.TradeCoupon;
 import com.jiaxi.shop.pojo.TradeCouponExample;
 import java.util.List;
-import org.apache.ibatis.annotations.Param;
 
+import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
+@Mapper
 public interface TradeCouponMapper {
     int countByExample(TradeCouponExample example);
 
