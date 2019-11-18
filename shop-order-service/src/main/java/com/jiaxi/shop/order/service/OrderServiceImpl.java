@@ -1,11 +1,15 @@
 package com.jiaxi.shop.order.service;
 
+import com.alibaba.dubbo.config.annotation.Service;
 import com.jiaxi.common.constant.ShopCode;
 import com.jiaxi.common.exception.CastException;
 import com.jiaxi.shop.api.IOrderService;
 import com.jiaxi.shop.entity.Result;
 import com.jiaxi.shop.pojo.TradeOrder;
+import org.springframework.stereotype.Component;
 
+@Component
+@Service(interfaceClass = IOrderService.class)
 public class OrderServiceImpl implements IOrderService {
     /**
      * 确认订单

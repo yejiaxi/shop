@@ -3,14 +3,13 @@ import com.jiaxi.shop.api.IGoodService;
 import com.jiaxi.shop.order.OrderServiceApplication;
 import com.jiaxi.shop.order.mapper.TradeOrderMapper;
 import com.jiaxi.shop.pojo.TradeGoods;
-import com.jiaxi.shop.pojo.TradeOrder;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import java.math.BigDecimal;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes=OrderServiceApplication.class)

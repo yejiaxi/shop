@@ -5,8 +5,10 @@ import com.jiaxi.shop.api.IGoodService;
 import com.jiaxi.shop.goods.mapper.TradeGoodsMapper;
 import com.jiaxi.shop.pojo.TradeGoods;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
-@Service
+@Component
+@Service(interfaceClass = IGoodService.class)
 public class GoodsServiceImpl implements IGoodService {
     @Autowired
     private TradeGoodsMapper tradeGoodsMapper;
